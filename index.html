@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>レストラン検索アプリ</title>
+</head>
+<body>
+    <h1>レストラン検索アプリ</h1>
+    <form action="result.php" method="get">
+        <div id="search_words">
+            <label for="restaurant_name">店舗名</label>
+            <input type="text" name="search_word" id="search_word">
+            <label for="search_word">検索範囲</label>
+            <select name="range" id="range">
+                <option value="1">300m以内</option>
+                <option value="2">500m以内</option>
+                <option value="3">1000m以内</option>
+                <option value="4">2000m以内</option>
+                <option value="5">3000m以内</option>
+            </select>
+            <label for="search_word">店舗名</label>
+            <input type="text" name="search_word" id="search_word">
+            <label for="search_word">店舗名</label>
+            <input type="text" name="search_word" id="search_word">
+            <input type="submit" value="検索">
+        </div>
+</body>
+</html>
